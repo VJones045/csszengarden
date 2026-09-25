@@ -1,0 +1,51 @@
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.intro header {
+    width:100%;
+}
+
+.intro div {
+    width: 50%;
+}
+
+header {
+    background-color: rgb(102, 123, 83);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.summary {
+    background-image: url(cat_photo.avif);
+    height: 400px;
+    padding-bottom: 10px;
+}
+
+.summary p {
+    padding: 10px;
+}
+
+h1 {
+    font-size: 25px;
+    color: rgb(23, 33, 5);
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.preamble {
+    background-color: rgb(116, 124, 84);
+    padding-bottom: 40px;
+}
+
+.preamble p {
+    font-size: 18px;
+    color: rgb(33, 44, 22);
+    padding: 10px;
+}
+
+.main-supporting {
+    columns: 3;
+}
